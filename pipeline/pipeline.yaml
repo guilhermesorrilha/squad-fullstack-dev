@@ -1,0 +1,32 @@
+name: "Fullstack Dev Pipeline"
+squad: "fullstack-dev"
+version: "1.0.0"
+
+steps:
+  - file: steps/step-01-project-briefing.md
+  - file: steps/step-02-requirements-analysis.md
+  - file: steps/step-03-approve-plan.md
+  - file: steps/step-04-ux-wireframes.md
+  - file: steps/step-05-approve-ux.md
+  - file: steps/step-06-frontend-implementation.md
+  - file: steps/step-07-backend-implementation.md
+  - file: steps/step-08-ux-review.md
+  - file: steps/step-09-approve-implementation.md
+  - file: steps/step-10-qa-testing.md
+  - file: steps/step-11-approve-qa.md
+  - file: steps/step-12-security-audit.md
+  - file: steps/step-13-accessibility-audit.md
+  - file: steps/step-14-performance-audit.md
+  - file: steps/step-15-approve-audits.md
+  - file: steps/step-16-documentation.md
+  - file: steps/step-17-deploy.md
+  - file: steps/step-18-final-approval.md
+
+checkpoints:
+  - step-01-project-briefing
+  - step-03-approve-plan
+  - step-05-approve-ux
+  - step-09-approve-implementation
+  - step-11-approve-qa
+  - step-15-approve-audits
+  - step-18-final-approval

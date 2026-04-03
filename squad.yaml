@@ -1,0 +1,15 @@
+name: "Fullstack Dev"
+code: "fullstack-dev"
+description: "Squad completo de desenvolvimento web com 10 agentes especializados — do planejamento ao deploy."
+version: "1.0.0"
+
+skills:
+  - web_search
+  - web_fetch
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md

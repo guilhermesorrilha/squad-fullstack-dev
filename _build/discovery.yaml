@@ -1,0 +1,35 @@
+squad_code: "fullstack-dev"
+purpose: "Squad completo de desenvolvimento web com 10 agentes especializados, cobrindo desde planejamento e UX até deploy e documentação. Generalista e agnóstico de stack."
+domain: "automation"
+
+company:
+  name: "Guilherme (Freelancer / Projetos Pessoais)"
+  tone: "Profissional, direto e moderno"
+  products: "Landing pages, automação de processos, projetos web"
+
+language: "Português (Brasil)"
+
+context:
+  project_type: "Qualquer tipo de projeto web (generalista)"
+  tech_stack: "Agnóstico — adapta ao projeto conforme a necessidade"
+  agents_requested:
+    - orchestrator_pm: "Planeja, divide tarefas, delega e revisa resultado final antes de checkpoints"
+    - ux_designer: "Cria wireframes, mapeia fluxos de usuário, revisa entrega do Frontend"
+    - frontend_dev: "Implementa interface: componentes, layouts, CSS, interatividade"
+    - backend_dev: "Desenvolve APIs, regras de negócio, integração com banco de dados"
+    - qa_tester: "Testa implementação, identifica bugs, rejeita entregas com problemas"
+    - security_reviewer: "Audita vulnerabilidades OWASP Top 10, revisa segurança de código e infra"
+    - accessibility_auditor: "Verifica WCAG 2.1, ARIA, navegação por teclado, contraste de cores"
+    - seo_performance: "Audita Core Web Vitals, otimiza assets, meta tags, dados estruturados"
+    - tech_writer: "Documenta APIs, mantém README, gera changelogs"
+    - devops: "Configura CI/CD, gerencia ambientes, executa deploy"
+  pipeline_order: "Orchestrator → UX Designer (wireframes) → Frontend + Backend (paralelo) → UX Designer (revisão de UI) → QA Tester → Security Reviewer → Accessibility Auditor → SEO & Performance → Tech Writer → DevOps"
+
+tools_needed:
+  - "web_search"
+  - "web_fetch"
+
+investigation:
+  enabled: false
+
+target_formats: []

@@ -1,0 +1,11 @@
+id,name,title,icon,execution,path
+orchestrator,Oscar Orquestra,PM / Orchestrator,🎯,inline,./agents/orchestrator.agent.md
+ux-designer,Uma Usabilidade,UX Designer,🎨,inline,./agents/ux-designer.agent.md
+frontend-dev,Fábio Front,Frontend Developer,💻,subagent,./agents/frontend-dev.agent.md
+backend-dev,Bernardo Backend,Backend Developer,⚙️,subagent,./agents/backend-dev.agent.md
+qa-tester,Quico Qualidade,QA Tester,🔍,inline,./agents/qa-tester.agent.md
+security-reviewer,Sérgio Segurança,Security Reviewer,🛡️,subagent,./agents/security-reviewer.agent.md
+accessibility-auditor,Ada Acessibilidade,Accessibility Auditor,♿,subagent,./agents/accessibility-auditor.agent.md
+seo-performance,Pedro Performance,SEO & Performance,📊,subagent,./agents/seo-performance.agent.md
+tech-writer,Tomás Texto,Technical Writer,📝,subagent,./agents/tech-writer.agent.md
+devops,Diana Deploy,DevOps Engineer,🚀,inline,./agents/devops.agent.md
